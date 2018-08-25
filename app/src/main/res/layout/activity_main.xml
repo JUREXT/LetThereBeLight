@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bulb_atomic"
+    tools:context="com.jurext.belezenje_storitve.lettherebelight.MainActivity">
+
+    <ToggleButton
+        android:background="@color/temno"
+        android:text="ToggleButton"
+        android:layout_width="200sp"
+        android:id="@+id/toggleButton"
+        android:layout_height="100sp"
+        android:textSize="30sp"
+        android:checked="false"
+        android:textColor="@color/siva"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp" />
+</RelativeLayout>
